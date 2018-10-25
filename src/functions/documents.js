@@ -40,3 +40,10 @@ export const saveTagsToDocument = (section, document) => {
         .catch(error => reject(error));
     })    
 };
+
+export const uploadImage = (section, image) => {
+    return documentsStorage.uploadImage(section, image)
+    .then(result => {
+        
+    })
+}

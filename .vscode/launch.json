@@ -19,7 +19,7 @@
             "type": "reactnative",
             "request": "launch",
             "platform": "ios",
-            // "target": "device",
+            //"target": "device",
             "runArguments": [
                 "--simulator", "iPhone 6s"
             ],

@@ -5,12 +5,14 @@ import Documents from '../components/documents';
 import Home from '../components/Home';
 import ImpData from '../components/ImpData';
 import DocumentViewPdf from '../components/documentViewPdf';
+import ViewCameraRoll from '../components/ViewCameraRoll';
 
 const HomeNavigator = StackNavigator({
     Home,
     ImpData,
     Documents,
-    DocumentViewPdf
+    DocumentViewPdf,
+    ViewCameraRoll
     },
     {
         initialRouteName:'Home'

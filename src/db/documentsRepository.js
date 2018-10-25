@@ -26,6 +26,10 @@ export const getDocuments = (section) => {
     });
 }
 
+export const addDocument = (section, imageFileName, title, tags) => {
+
+}
+
 export const saveTagsToDocument = (section, document) => {
     var documentRef = firebase.database().ref('impData/' + section + '/documents/' + document.id + "/tags");
     return documentRef.set(document.tags);

@@ -57,7 +57,7 @@ class Documents extends Component{
     }
 
     _onTapPhotoUpload = (section) => {
-
+        this.props.navigation.navigate('ViewCameraRoll', {section:section});
     }
 
     _onTouchDocument(document){
