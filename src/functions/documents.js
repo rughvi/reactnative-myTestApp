@@ -44,6 +44,6 @@ export const saveTagsToDocument = (section, document) => {
 export const uploadImage = (section, image) => {
     return documentsStorage.uploadImage(section, image)
     .then(result => {
-        
-    })
+        return documentsRepo.addDocument(section, image.filename, 'test title', 'tag1 tag2 tag3 test');
+    });
 }

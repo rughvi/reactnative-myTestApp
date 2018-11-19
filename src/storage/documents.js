@@ -53,6 +53,7 @@ export const uploadImage = (section, image) => {
         })
         .then(snapshot => {
             uploadBlob.close();
+            resolve({});
         })
         .catch(error => reject(error));
     });

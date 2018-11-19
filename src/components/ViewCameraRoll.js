@@ -56,7 +56,7 @@ class ViewCameraRoll extends Component{
 
         uploadImage(section, selectedPhoto)
         .then(result => {
-
+            Alert.alert('', 'Successfully uploaded image',[]);
         })
         .catch(error => {
             Alert.alert('', error.message,[]);
